@@ -87,7 +87,7 @@ app.post('/', (req, res) => {
       printer.println(` `);
       printer.println(`ITEMS:    ${body.details.length} `);
 
-      printer.println("Representación gráfica de la boleta electrónica podrá ser consultada en www.sportxxi.com.pe");
+      printer.println("Representación gráfica de la boleta electrónica podrá ser consultada en www.angeldivino.com.pe");
       printer.alignCenter();
       printer.println("Gracias por su preferencia");
       printer.cut();           
