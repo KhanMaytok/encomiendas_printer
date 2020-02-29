@@ -39,13 +39,12 @@ app.post('/', (req, res) => {
 
     try {
       printer.alignCenter();
-      printer.println("ARTICULOS DEPORTIVOS");
-      printer.println("SPORT XXI SAC");
-      printer.println("Alfredo Lapoint 1155");
-      printer.println("Alfredo lapoint 393");
-      printer.println("Telf: (074)-236374 / (074)-228656");
+      printer.println("EMPRESA DE TRANSPORTES");
+      printer.println("TOURS ANGEL DIVINO SAC");
+      printer.println("Av. Jorge Chavez Nro. 1365");
+      printer.println("Telf: (074)-227540  / (074)-612063");
       printer.println("Chiclayo-Chiclayo-Lambayeque");
-      printer.println("RUC: 20479467863");
+      printer.println("RUC: 20395419715");
 
       printer.drawLine();
       let invoicetype = body.header.serie.startsWith('F') ? 'FACTURA' : 'BOLETA';
